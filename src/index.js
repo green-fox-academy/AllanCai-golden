@@ -1,15 +1,8 @@
 import React from 'react';
-import { render } from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import AcornApp from './reducers/index';
-import App from './App';
+import ReactDOM from 'react-dom';
+import Router from '../components/router';
 
-const store = createStore(AcornApp);
-
-render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+ReactDOM.render(
+  <Router />,
   document.getElementById('root'),
 );

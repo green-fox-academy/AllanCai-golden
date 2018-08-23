@@ -1,4 +1,4 @@
-import { combineReducers } from 'redux'
+import { CombineReducers } from 'redux'
 // import {
 //   BUY_ONE,
 //   EAT_ONE,
@@ -26,7 +26,7 @@ const callMeMaybe = (state = initState, action) => {
 };
 
 
-const AcornApp = combineReducers({
+const AcornApp = CombineReducers({
   callMeMaybe,
 });
 
