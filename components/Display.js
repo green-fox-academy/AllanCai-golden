@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 function Display(props) {
   const { number } = props;
+  console.log(props);
   return (
     <p>{number}</p>
   );

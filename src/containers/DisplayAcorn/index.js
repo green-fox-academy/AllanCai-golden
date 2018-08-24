@@ -3,14 +3,14 @@ import { connect } from 'react-redux';
 import Display from '../../../components/Display';
 
 const mapStateToProps = (state) => {
-  console.log(state);
+	console.log(state);
   return {
-    number: state.callMeMaybe.number,
+    number: state.number,
   };
 };
 
-const displayNum = connect(
+const DisplayNum = connect(
   mapStateToProps,
 )(Display);
 
-export default displayNum;
+export default DisplayNum;

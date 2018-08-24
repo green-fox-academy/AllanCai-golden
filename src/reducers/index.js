@@ -26,8 +26,8 @@ const callMeMaybe = (state = initState, action) => {
 };
 
 
-const AcornApp = CombineReducers({
-  callMeMaybe,
-});
+// const AcornApp = CombineReducers({
+//   callMeMaybe,
+// });
 
-export default AcornApp;
+export default callMeMaybe;

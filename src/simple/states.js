@@ -39,6 +39,7 @@ class SimpleGoldenAcornApp extends React.Component {
 
   render() {
     const { number } = this.state;
+    console.log(number);
     return (
       <div>
         <Button className="buy" text="Buy one" onClick={this.buy()} />
